@@ -77,7 +77,7 @@ const CartItem = ({
     <img src={imgSrc} alt="Item" />
     <article>
       <h3>{name}</h3>
-      <p>${price}</p>
+      <p>Rs {price}</p>
     </article>
 
     <div>

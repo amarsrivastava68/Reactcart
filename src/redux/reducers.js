@@ -8,6 +8,7 @@ export const cartReducer = createReducer(
     tax: 0,
     total: 0,
   },
+
   {
     addToCart: (state, action) => {
       const item = action.payload;
