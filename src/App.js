@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import { Toaster } from "react-hot-toast";
 import Cart from "./components/Cart";
 import About from "./components/About";
-
+import Footer from "./components/Footer";
 import "./styles/app.scss";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path = "/about" element = {<About/>} />
       </Routes>
       <Toaster />
+      <Footer/>
     </BrowserRouter>
   );
 }
